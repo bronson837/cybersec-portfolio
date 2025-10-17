@@ -1,23 +1,6 @@
-# Python
 __pycache__/
-*.py[cod]
-*.egg-info/
-
-# VS Code
 .vscode/
-
-# Editor backups
-*~ 
-*.swp
-
-# Nmap / scan outputs
 scans/*.xml
 scans/*.gnmap
-
-# Secrets (never store)
 *.key
 *.pem
-*.p12
-
-# OS files
-.DS_Store
