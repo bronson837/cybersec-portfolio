@@ -1,0 +1,14 @@
+# Nmap 7.95 scan initiated Fri Oct 17 11:13:50 2025 as: /usr/lib/nmap/nmap --privileged -Pn -sC -sV -p- -T4 -oN /home/ghost/cybersec/scans/nmap_REDACTED_IP_2025-10-17_1113.txt REDACTED_IP
+Nmap scan report for localhost (REDACTED_IP)
+Host is up (0.0000010s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE    VERSION
+5432/tcp open  postgresql PostgreSQL DB 9.6.0 or later
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=kali
+| Subject Alternative Name: DNS:kali
+| Not valid before: 2025-10-12T02:26:32
+|_Not valid after:  2035-10-10T02:26:32
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 17 11:13:58 2025 -- 1 IP address (1 host up) scanned in 7.73 seconds
